@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AltSchool Signup</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-section">
+            <div class="illustration">
+                <img src="alt-img.jpg" alt="Illustration">
+            </div>
+            <h1>Learn highly sought after skills without hassle.</h1>
+        </div>
+        <div class="right-section">
+            <p class="altschooler">Already an AltSchooler? <a class="signin" href="#"> Sign In </a></p>
+            <h2>Signup</h2>
+            <p>Take the next steps to apply at AltSchool Africa</p>
+            <div class="form-container"><form id="reg-form">
+                    <div class="form-group">
+                        <label for="firstName">First Name</label>
+                        <input type="text" name="first-name" placeholder="First Name" required>
+                        <label for="lastName">Last Name</label>
+                        <input type="text" name="last-name" placeholder="Last Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" placeholder="Email" required>
+                        <label for="gender">Gender</label>
+                        <select name="gender" required>
+                            <option value="" disabled selected>Select gender</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="dob">Date of Birth</label>
+                        <input type="date" name="dob" required>
+                        <label for="phone-number">Phone Number</label>
+                        <input type="text" name="phone-number" placeholder="Phone Number" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="country">Country of Residence</label>
+                        <input type="text" name="country" placeholder="Country of Residence" required>
+                        <label for="state">State of Residence</label>
+                        <input type="text" name="state" placeholder="State of Residence" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" placeholder="Password" required>
+                        <label for="confirm-password">Confirm Password</label>
+                        <input type="password" name="confirm-password" placeholder="Confirm Password" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="referral">How did you hear about us?</label>
+                        <input type="text" name="referral" placeholder="Optional: How did you hear about us?">
+                    </div>
+                    <div class="form-group" id="para">
+                        <p>By clicking continue, I agree to <a href="#">Terms of Use</a> and acknowledge that I have read the <a href="#">Privacy Policy</a>.</p>
+                    </div>
+                    <button type="submit" class="full-width">Signup</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
